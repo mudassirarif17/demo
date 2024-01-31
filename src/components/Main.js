@@ -8,7 +8,8 @@ import { BsFiletypePpt } from "react-icons/bs";
 import { FaRegFileExcel } from "react-icons/fa";
 import { AiOutlineFileJpg } from "react-icons/ai";
 import { BiSolidFileTxt } from "react-icons/bi";
-import Slider from '../components/Slider';
+
+// import Slider from '../components/Slider';
 
 
 const Main = () => {
@@ -16,7 +17,6 @@ const Main = () => {
         <div className='my-6'>
             <div className="main1 w-[85vw] mx-auto">
                 <h1 className='text-xl font-semibold'>Your BookMarks</h1>
-                <Slider/>
                 <div className="cards flex space-x-4 ">
                     <div className='card w-[17vw] h-[26vh] bg-gray-100 flex flex-col justify-center p-4 my-5'>
                         <MdEditDocument className='text-orange-600 text-4xl'/>
