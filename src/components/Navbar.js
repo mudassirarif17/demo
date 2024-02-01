@@ -31,7 +31,7 @@ const Navbar = () => {
                 <CiSearch className='md:hidden block text-3xl font-semibold ' />
             </div>
             <hr />
-            <div className="transition-all delay-800 right-[-100%] mblmenu absolute top-0 bg-white w-full">
+            <div className="z-20 transition-all delay-800 right-[-100%] mblmenu absolute top-0 bg-white w-full">
                 <ul className='space-y-4 '>
                     <li></li>
                     <li className='text-gray-600 text-lg font-light px-4'>WishList</li>
