@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Card = (props) => {
+    
 const [slide , setSlide] = useState(2);
 const mediaQuery = window.matchMedia('(min-width: 768px)')
 
@@ -21,6 +22,7 @@ function handleTabletChange(e) {
     setSlide(2)
   }
 }
+
 
 useEffect(()=>{
 // Initial check
